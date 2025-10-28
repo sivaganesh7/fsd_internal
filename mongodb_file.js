@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // ✅ MongoDB Atlas connection
-mongoose.connect('mongodb+srv://pepakayalasiva7075_db_user:Sivaganesh042@cluster0.n2ha1x9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('url', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
